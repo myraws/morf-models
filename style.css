@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  background-color: #F7F1EE;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  padding: 20px 20px 13px;
+  background-color: #fff;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 1px 5px 0px rgba(51, 51, 51, 0.3);
+}
+
+.brand-logo {
+  float: left;
+}
+
+.brand-logo img {
+  height: 30px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.brand-logo h1 {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 2px;
+}
+
+
+nav {
+  float: right;
+  margin-top: 3px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #333;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+nav a:hover {
+  opacity: .5;
+  transition: all 0.2s;
+}
+
+.hero {
+  background-image: url(images/my-model_top.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 230px;
+  padding-bottom: 230px;
+  margin-top: 50px;
+}
+
+.slogan {
+  max-width: 540px;
+  margin: 0 140px 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.slogan h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.slogan p {
+  font-size: 24px;
+  margin: 10px 0 0 0;
+}
+
+.models, .quotes {
+  overflow: hidden;
+}
+
+.models img {
+  float: left;
+  width: 33.333%;
+}
+
+.quotes {
+  display: flex;
+}
+
+.quotes div {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.quotes img {
+  height: 80px;
+  border-radius: 100%;
+}
+
+.quotes blockquote {
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  margin: 15px auto 0;
+  max-width: 480px;
+}
+
+.quote-2 {
+  background-color: #fff;
+}
+
+.cross {
+  background-image: url(images/my-model_cross_pink.png);
+  background-position: center;
+  margin-top: 0;
+  padding: 0;
+  height: 600px;
+}
+
+.logos {
+  text-align: center;
+  background-color: #AEE5D8
+}
+
+.logos p {
+  margin: 0;
+  padding-top: 40px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.logos img {
+  height: 100px;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+footer {
+  padding: 20px;
+  overflow: hidden;
+  background-color: #7C6354;
+  color: #fff;
+}
+
+.footer-logo {
+  float: left;
+  padding-top: 3px;
+}
+
+.footer-logo img {
+  height: 30px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-logo p {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  display: inline-block;
+  position: absolute;
+  margin: 4px 0 0 0;
+}
+
+.copyright {
+  float: right;
+  margin: 0;
+  padding: 8px 5px 0 0;
+}
